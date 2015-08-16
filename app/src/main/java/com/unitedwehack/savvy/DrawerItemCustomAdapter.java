@@ -2,12 +2,15 @@ package com.unitedwehack.savvy;
 
 import android.app.Activity;
 import android.content.Context;
+import android.graphics.Color;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import static android.graphics.Color.parseColor;
 
 /**
  * Created by Aryn on 8/16/15.
@@ -41,7 +44,9 @@ public class DrawerItemCustomAdapter extends ArrayAdapter<ObjectDrawerItem> {
 
 
         imageViewIcon.setImageResource(folder.icon);
+        imageViewIcon.setBackgroundColor(parseColor("#3B3B3B"));
         textViewName.setText(folder.name);
+        textViewName.setBackgroundColor(parseColor("#3B3B3B"));
 
         return listItem;
     }

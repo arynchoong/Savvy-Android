@@ -46,7 +46,7 @@ public class MainActivity extends Activity {
 
     // onClick of next button
     public void startAddAcitivty(View view) {
-        Intent intent = new Intent(this, AddBudgetActivity.class);
+        Intent intent = new Intent(this, NavDrawerActivity.class);
         startActivity(intent);
     }
 }

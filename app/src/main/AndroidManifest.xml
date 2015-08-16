@@ -59,6 +59,10 @@
             android:name=".Visualisation2Activity"
             android:label="Report" >
         </activity>
+        <activity
+            android:name=".NavDrawerActivity"
+            android:label="@string/title_activity_nav_drawer" >
+        </activity>
     </application>
 
 </manifest>

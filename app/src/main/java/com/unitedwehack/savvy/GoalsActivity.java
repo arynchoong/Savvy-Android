@@ -47,7 +47,7 @@ public class GoalsActivity extends AppCompatActivity {
 
     // onClick of next button
     public void startNextAcitivty(View view) {
-        Intent intent = new Intent(this, Goals2Activity.class);
+        Intent intent = new Intent(this, NavDrawerActivity.class);
         startActivity(intent);
     }
 }
