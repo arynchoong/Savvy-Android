@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Savvy</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="today">Today</string>
+    <string name="expense">Expense</string>
+    <string name="income">Income</string>
+
+    <string-array name="categories_array">
+        <item>Food</item>
+        <item>Rent</item>
+        <item>Mortgage</item>
+        <item>Utilities</item>
+        <item>Clothing</item>
+        <item>Medical</item>
+        <item>Education</item>
+        <item>Transportation</item>
+        <item>Travel</item>
+        <item>Income</item>
+        <item>Home</item>
+        <item>Bills</item>
+        <item>Leisure</item>
+        <item>Health</item>
+        <item>Grooming</item>
+    </string-array>
+
+    <string-array name="income_array">
+        <item>Less than 5,000</item>
+        <item>5,000 ~ 10,000</item>
+        <item>More than 10,000</item>
+    </string-array>
+
+    <string-array name="nav_drawer">
+        <item>Edit Profile</item>
+        <item>Goals</item>
+        <item>Expenses</item>
+        <item>Tip of the Day</item>
+        <item>Forum</item>
+        <item>Blog</item>
+    </string-array>
+
+    <string name="title_activity_visualisation">VisualisationActivity</string>
+
+    <string name="title_section1">Expenses</string>
+    <string name="title_section2">Series</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_activity_nav_drawer">NavDrawerActivity</string>
+    <string name="drawer_open">Drawer open</string>
+    <string name="drawer_close">Drawer close</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+</resources>
